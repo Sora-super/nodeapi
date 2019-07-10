@@ -96,7 +96,6 @@ class userController {
                 }
                 return ctx.body = {
                     code: '0',
-                    token: token,
                     userInfo: JSON.stringify(info),
                     desc: '登陆成功'
                 }
@@ -120,7 +119,7 @@ class userController {
     const req = ctx.request.body;
     // const token = ctx.headers.authorization;
         try {
-            const result = await tools.verToken(token);
+            // const result = await tools.verToken(token);
             if (!req.username) {
                 return ctx.body = {
                     code: '-1',
