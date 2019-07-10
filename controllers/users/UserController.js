@@ -88,7 +88,7 @@ class userController {
     } else {
         const data = await userModule.getUserInfo(req.username);
         if (data) {
-            if (data.password === req.passWord) {
+            if (data.password === req.password) {
                 const info = {
                     createdAt: data.createdAt,
                     updatedAt: data.updatedAt,
