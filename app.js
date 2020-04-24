@@ -6,7 +6,7 @@
  */
 // app.js
 // 加载依赖
-const koa = require('koa');å
+const koa = require('koa');
 var cors = require('koa2-cors');
 
 const router = require('koa-router')();
