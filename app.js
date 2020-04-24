@@ -32,13 +32,7 @@ const app = new Koa()
 
 
 app.use(async ctx => {
-  ctx.body = 'Hello World'
+    ctx.body = 'Hello World'
 })
 
-app.listen(3000, (err) => {
-    if (err) {
-        console.log(err)
-    } else {
-        console.log('3000端口已经启动？')
-    }
-})
+app.listen(3000, '127.0.0.1')
