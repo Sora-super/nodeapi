@@ -36,3 +36,4 @@ app.use(async ctx => {
 })
 
 app.listen(3000)
+console.log('3000端口已经启动？')
