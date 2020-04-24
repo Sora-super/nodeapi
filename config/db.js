@@ -1,6 +1,6 @@
 var Sequelize = require("sequelize")
 var sequelize = new Sequelize('a0614152456', 'a0614152456', '2c96d072', {
-  host: '10.feiyu.hk.cn',
+  host: '10.losacos.website',
   dialect: 'mysql',
   operatorsAliases: false,
   dialectOptions:{

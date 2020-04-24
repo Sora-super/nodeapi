@@ -12,6 +12,7 @@ const user = Sequelize.import('../../module/user')
 //自动创建表
 user.sync({ force: false }); 
 
+console.log(db)
 //数据库操作类
 class userModule {
     static async userRegist(data) {
